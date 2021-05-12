@@ -1,0 +1,45 @@
+
+
+#author-photo {
+    width: 55px;
+}
+
+#name {
+    font-weight: bold !important;
+    color: var(--grey-dark)
+}
+
+#date {
+    color: grey;
+}
+
+#time-tag {
+    background-color: var(--link);
+    // width: 120px;
+    // height: 30px;
+    border-radius: 18px;
+    color: var(--white);
+    display: inline-block;
+    padding: .25em 1.25em .25em 1.25em;
+}
+
+#quote {
+    color: grey !important;
+    font-style: italic !important;
+}
+
+#emphasis {
+    border-left: 8px solid var(--primary);
+    padding-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.menu-link {
+    display: block !important;
+    text-align: right;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    border-right: 6px solid var(--primary);
+    color: grey !important;
+  }

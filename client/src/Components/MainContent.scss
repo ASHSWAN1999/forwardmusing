@@ -1,0 +1,119 @@
+@import '../scss/custom';
+
+
+#grey-block {
+    background-color: var(--grey);
+    padding: 3em 1em 3em 1em;
+}
+
+#black-block {
+    background-color: var(--dark);
+    color: var(--primary);
+    padding: 3.5em 3em 3.5em 3em;
+    margin: 1em;
+}
+
+#picture-block {
+    background-image: url("../Images/Canvas_bag.png");
+    background-size: cover;
+    padding: 3em 2em 3em 2em;
+    margin: 1em;
+}
+
+#text-container0 {
+    background-color: var(--dark);
+    display: inline-block;
+    color: var(--light);
+    font-size: small;
+    font-weight: 700;
+    margin-bottom: 1em;
+    padding: .5em 1.5em .5em 1.5em;
+}
+
+#text-container1 {
+    background-color: var(--dark);
+    color: var(--secondary-light) !important;
+    padding: 1.5em;
+}
+
+#white-blocks {
+    margin: 1em;
+}
+
+.white-block1 {
+    background-color: var(--light);
+    color: var(--secondary-dark);
+    padding: 3em 2em;
+    margin-bottom: 2em;
+    display: block!important;
+}
+
+.white-block2 {
+    background-color: var(--light);
+    color: var(--secondary-dark);
+    padding: 3em 2em;
+    display: block!important;
+}
+
+.category {
+    display: block !important;
+    font-size: small;
+    font-weight: 700;
+    color: var(--grey-dark);
+}
+
+.blue-link {
+    display: block;
+    margin-top: 1em;
+    color: var(--link)!important;
+    text-decoration: underline!important;
+}
+
+.blue-link:hover {
+    display: block;
+    color: #0A61A0!important;
+  }
+
+.white-link {
+    display: block;
+    font-weight: 300;
+    margin-top: 1em;
+    color: var(--light)!important;
+    text-decoration: underline!important;
+}
+
+.white-link:hover {
+    color: #aaaaaa!important;
+  }
+
+#banner-container {
+    padding: 3em 3em 2em 3em;
+}
+
+#get-involved-text {
+    font-size: 32px;
+    color: var(--secondary-dark);
+    margin: 0em !important;
+}
+
+#be-the-change-text {
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--grey-dark);
+    margin: 0em !important;
+}
+
+#jumbo-picture {
+    background-image: url("../Images/Plastic_single_use.png");
+    background-size: cover;
+}
+
+#jumbo-text {
+    background-color: var(--dark);
+    color: var(--primary);
+    padding: 2em 4em 2em 4em;
+}
+
+.white-cards {
+    background-color: var(--light);
+}

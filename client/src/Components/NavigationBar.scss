@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.navbar-brand {
+    font-size: 30px!important;
+    color: #222222!important;
+    text-shadow: 2px 3px #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+
+.navbar {
+    background-color: #FED674; 
+    flex-wrap: nowrap;
+    
+}
+
+a, .navbar-nav, .navbar-light .nav-link {
+  color: rgba(0, 0, 0, 0.6)!important;
+}
+
+a, .navbar-nav, .navbar-light .nav-link:hover {
+  color: rgba(0, 0, 0, 0.9)!important;
+}
+
+.btn-dark {
+  background-color: var(--dark) !important;
+}
+
+.btn-dark:hover {
+  background-color: var(--link) !important;
+  border-color: var(--link) !important;
+}
+

@@ -1,0 +1,55 @@
+
+
+$theme-colors: (
+  "primary": #FED674,
+  "secondary-light": #91DBCF,
+  "secondary-dark": #25AF9A,
+  "light": #ffffff,
+  "dark": #111111, 
+  "link": #2990DC, 
+  "grey": #F2F2F2, 
+  "grey-dark": #424242
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+h3 {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+h4 {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: var(--secondary-dark);
+  margin-top: .75em;
+}
+
+.nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5)!important;
+  padding: 1rem .6rem 1rem .6rem;
+}
+
+
+.button {
+  width:200px!important;
+}
